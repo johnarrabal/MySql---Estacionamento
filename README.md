@@ -1,21 +1,26 @@
 1)	Implemente o modelo abaixo no banco de dados MySql.
-a. Tabela Cliente
+
+a) Tabela Cliente
   - CPF (INT) (PK)
   - NOME (VARCHAR)
   - DATA DE NASCIMENTO (DATE)
-b. Tabela Modelo
+
+b) Tabela Modelo
   - CODMOD (INT)(PK)
   - DESC_2(VARCHAR)
-c. Patio
+
+c) Patio
   - NUM (INT)(PK)
   - ENDER (VARCHAR)
   - CAPACIDADE (INT)
-c. Veiculo
+
+d) Veiculo
   - PLACA (VARCHAR)
   - MODELO_CODMOD (FK)
   - CLIENTE_CPF (FK)
   - COR (VARCHAR)
-d. Estaciona
+
+e) Estaciona
   - COD (INT)(PK)
   - PATIO_NUM (INT)(FK)
   - VEICULO_PLACA (VARCHAR)(FK)
